@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: guestbook
-        image: 'k8s.gcr.io/guestbook:v3'
+        image: 'registry.cn-hangzhou.aliyuncs.com/public2460/guestbook:v3'
         env:
         - name: "VERSION"
           value: "v1"
